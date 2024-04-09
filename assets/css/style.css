@@ -2,3 +2,26 @@ body {
     background-color: #2218e5;
     color: #eef4e0;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#main-section {
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: safe center;
+    padding-bottom: 20px;
+}
+
+#map {
+   height: 80vh; 
+   width: 90vw;
+   background-color: bisque;
+}
